@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorMenuBG"
+    tools:context="minibit.phraseme.MenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PhraseIt"
+        android:id="@+id/textViewMenuTitle"
+        android:layout_marginTop="20dp"
+        android:textSize="75sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/playButton"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/play"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp"
+        android:layout_below="@+id/textViewMenuTitle"
+        android:layout_alignLeft="@+id/textViewMenuTitle"
+        android:layout_alignStart="@+id/textViewMenuTitle"
+        android:layout_marginTop="20dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/profileButton"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/profile"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp"
+        android:layout_below="@+id/playButton"
+        android:layout_alignLeft="@+id/textViewMenuTitle"
+        android:layout_alignStart="@+id/textViewMenuTitle"
+        android:layout_marginTop="15dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/leaderboardsButton"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/leaderboards"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp"
+        android:layout_below="@+id/profileButton"
+        android:layout_alignLeft="@+id/textViewMenuTitle"
+        android:layout_alignStart="@+id/textViewMenuTitle"
+        android:layout_marginTop="15dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/settingsButton"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/settings"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp"
+        android:layout_below="@+id/leaderboardsButton"
+        android:layout_alignLeft="@+id/textViewMenuTitle"
+        android:layout_alignStart="@+id/textViewMenuTitle"
+        android:layout_marginTop="15dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/helpButton"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/help"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp"
+        android:layout_below="@+id/settingsButton"
+        android:layout_alignLeft="@+id/textViewMenuTitle"
+        android:layout_alignStart="@+id/textViewMenuTitle"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PLAY"
+        android:textSize="20sp"
+        android:id="@+id/textViewPlay"
+        android:textColor="@color/colorMenuItems"
+        android:layout_below="@+id/textViewMenuTitle"
+        android:layout_toRightOf="@+id/playButton"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PROFILE"
+        android:textSize="20sp"
+        android:id="@+id/textViewProfile"
+        android:textColor="@color/colorMenuItems"
+        android:layout_below="@+id/textViewPlay"
+        android:layout_toRightOf="@+id/playButton"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LEADERBOARDS"
+        android:textSize="20sp"
+        android:id="@+id/textViewLeaderboards"
+        android:textColor="@color/colorMenuItems"
+        android:layout_below="@+id/textViewProfile"
+        android:layout_toRightOf="@+id/playButton"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SETTINGS"
+        android:textSize="20sp"
+        android:id="@+id/textViewSettings"
+        android:textColor="@color/colorMenuItems"
+        android:layout_below="@+id/textViewLeaderboards"
+        android:layout_toRightOf="@+id/playButton"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="HELP"
+        android:textSize="20sp"
+        android:id="@+id/textViewHelp"
+        android:textColor="@color/colorMenuItems"
+        android:layout_below="@+id/textViewSettings"
+        android:layout_toRightOf="@+id/playButton"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"/>
+
+
+
+</RelativeLayout>

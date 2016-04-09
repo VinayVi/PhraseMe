@@ -3,5 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorBlueSplash">#3C78D8</color>
+    <color name="colorSplash">#3C78D8</color>
+    <color name="colorMenuBG">#6AA74F</color>
+    <color name="colorPhrase">#B5D5A7</color>
+    <color name="colorMenuItems">#B6D7A8</color>
 </resources>
