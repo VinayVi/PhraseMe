@@ -24,7 +24,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:gravity="center"
-        android:textSize="@dimen/text_size" />
+        android:textSize="48sp" />
 
     <EditText
         android:layout_width="wrap_content"

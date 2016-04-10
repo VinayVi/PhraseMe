@@ -7,4 +7,10 @@
     <color name="colorMenuBG">#6AA74F</color>
     <color name="colorPhrase">#B5D5A7</color>
     <color name="colorMenuItems">#B6D7A8</color>
+    <color name="colorBlueSplash">#3C78D8</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_600">#546E7A</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="blue_grey_800">#37474F</color>
+    <color name="blue_grey_900">#263238</color>
 </resources>
